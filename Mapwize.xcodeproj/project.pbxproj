@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		473928BD1F7FCA150035B311 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473928B91F7FC9D20035B311 /* LaunchScreen.storyboard */; };
+		473928BE1F7FCA150035B311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473928BA1F7FC9D20035B311 /* Main.storyboard */; };
+		47553D9E1F824A5100C98AD2 /* PlaceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 479F5E4F1F82173800C021A3 /* PlaceView.xib */; };
+		47553DA01F824A9500C98AD2 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47553D9F1F824A9500C98AD2 /* PlaceView.swift */; };
+		4763215C1F83699700A7D3A8 /* SWRevealViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 476321571F83668400A7D3A8 /* SWRevealViewController.h */; };
+		4763215D1F83699700A7D3A8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476321581F83668400A7D3A8 /* SWRevealViewController.m */; };
+		4763263C1F844AB400A7D3A8 /* DirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4763263B1F844AB400A7D3A8 /* DirectionView.swift */; };
+		4763263E1F844AC300A7D3A8 /* DirectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4763263D1F844AC300A7D3A8 /* DirectionView.xib */; };
+		479F5DFC1F7FD02F00C021A3 /* MapwizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473928B51F7FC8820035B311 /* MapwizeViewController.swift */; };
+		479F5DFD1F7FD02F00C021A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473928A91F7FC8540035B311 /* AppDelegate.swift */; };
+		47A0B0281F82546800A40C2A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A0B0271F82546800A40C2A /* ColorExtension.swift */; };
+		47A0B0311F826D8400A40C2A /* MapwizeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A0B0301F826D8400A40C2A /* MapwizeTableViewController.swift */; };
+		47A0B0341F828BC500A40C2A /* SearchBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A0B0331F828BC500A40C2A /* SearchBarCell.swift */; };
+		47A0B0361F828BD700A40C2A /* SearchBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A0B0351F828BD700A40C2A /* SearchBarCell.xib */; };
+		47A119FD1F8455E100B35B34 /* ApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A119FC1F8455E100B35B34 /* ApplicationExtension.swift */; };
+		47A11A201F84E1AE00B35B34 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47A11A1F1F84E16B00B35B34 /* FontAwesome.ttf */; };
+		47A11A211F84E1AE00B35B34 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 479F5E011F7FDFAF00C021A3 /* ionicons.ttf */; };
+		47A44CC21F8501AE0062D187 /* RouteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A44CC01F84E6060062D187 /* RouteView.xib */; };
+		47A44CC31F8501B50062D187 /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A44CC11F84E6060062D187 /* RouteView.swift */; };
+		8F0A2E8E1FBECE7A004B47A1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A2E901FBECE7A004B47A1 /* Localizable.strings */; };
+		8F0A2E961FBEDA9E004B47A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A2E981FBEDA9E004B47A1 /* InfoPlist.strings */; };
+		8F15B40A1FB4781C00E09239 /* PlaceWithSubtitleSearchBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F15B4091FB4781C00E09239 /* PlaceWithSubtitleSearchBarCell.swift */; };
+		8F15B40C1FB4783500E09239 /* PlaceWithSubtitleSearchBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F15B40B1FB4783500E09239 /* PlaceWithSubtitleSearchBarCell.xib */; };
+		8F1E08381FB9A2A2006787EA /* SideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1E08371FB9A2A2006787EA /* SideViewController.swift */; };
+		8F5E91051FC424A80098B161 /* QrCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5E91041FC424A80098B161 /* QrCodeScannerViewController.swift */; };
+		8F5E91071FC433A40098B161 /* QrCodeTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5E91061FC433A40098B161 /* QrCodeTargetView.swift */; };
+		8F5E91111FC5B7040098B161 /* MapwizeLocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5E91101FC5B7040098B161 /* MapwizeLocationProvider.swift */; };
+		8F76A9581FD844D1003A4E3E /* credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 8F76A9571FD844D1003A4E3E /* credits.html */; };
+		8F9A5217206937B800162D02 /* LocationProvidersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A5216206937B800162D02 /* LocationProvidersManager.swift */; };
+		8FA143B81FE958670017D303 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA143B71FE958670017D303 /* BottomSheetViewController.swift */; };
+		8FA94DEC208F6E4100EE08EB /* ILPolestarIndoorLocationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA94DEB208F6E4100EE08EB /* ILPolestarIndoorLocationProvider.m */; };
+		8FD757361FC8583E000EEC57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FD757351FC8583E000EEC57 /* Assets.xcassets */; };
+		8FE17EF51FBEDCF1001CE300 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FE17EF41FBEDCF1001CE300 /* Info.plist */; };
+		8FE17EF71FBF1199001CE300 /* LocationBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE17EF61FBF1199001CE300 /* LocationBarCell.xib */; };
+		8FE17EF91FBF11A6001CE300 /* LocationBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE17EF81FBF11A6001CE300 /* LocationBarCell.swift */; };
+		8FF5CD151FB3114700B68A92 /* PlaceSearchBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5CD141FB3114700B68A92 /* PlaceSearchBarCell.swift */; };
+		8FF5CD171FB3115400B68A92 /* PlaceSearchBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FF5CD161FB3115400B68A92 /* PlaceSearchBarCell.xib */; };
+		994E8D85220014FD00613A19 /* BaseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D80220014FC00613A19 /* BaseNode.swift */; };
+		994E8D86220014FD00613A19 /* DestinationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D81220014FC00613A19 /* DestinationAnnotation.swift */; };
+		994E8D87220014FD00613A19 /* POIAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D82220014FC00613A19 /* POIAnnotation.swift */; };
+		994E8D88220014FD00613A19 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D83220014FC00613A19 /* LocationData.swift */; };
+		994E8D89220014FD00613A19 /* LocationTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D84220014FC00613A19 /* LocationTranslation.swift */; };
+		994E8D8C2200186200613A19 /* MatrixHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D8B2200186200613A19 /* MatrixHelper.swift */; };
+		994E8D9622001D9D00613A19 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D8E22001D9D00613A19 /* Constants.swift */; };
+		994E8D9722001D9D00613A19 /* CLLocationCoordinate2D+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D8F22001D9D00613A19 /* CLLocationCoordinate2D+Extension.swift */; };
+		994E8D9822001D9D00613A19 /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D9022001D9D00613A19 /* CLLocation+Extension.swift */; };
+		994E8D9922001D9D00613A19 /* StoryboardIdentifiableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D9122001D9D00613A19 /* StoryboardIdentifiableError.swift */; };
+		994E8D9A22001D9D00613A19 /* SCNVector3+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D9222001D9D00613A19 /* SCNVector3+Extension.swift */; };
+		994E8D9B22001D9D00613A19 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D9322001D9D00613A19 /* Double+Extension.swift */; };
+		994E8D9D22001D9D00613A19 /* MKRouteStep+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D9522001D9D00613A19 /* MKRouteStep+Extension.swift */; };
+		994E8DA02200267900613A19 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D9E2200267700613A19 /* LocationService.swift */; };
+		994E8DA12200267900613A19 /* LocationServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8D9F2200267900613A19 /* LocationServiceDelegate.swift */; };
+		994E8DA42200270B00613A19 /* ARVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E8DA32200270B00613A19 /* ARVC.swift */; };
+		BFD490F3DC0F6FCC82CC90BA /* Pods_Mapwize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1615CC6DDBCA1FE282233B16 /* Pods_Mapwize.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BB4FA560678D71764EE7B19 /* Pods-Mapwize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mapwize.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mapwize/Pods-Mapwize.release.xcconfig"; sourceTree = "<group>"; };
+		1615CC6DDBCA1FE282233B16 /* Pods_Mapwize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mapwize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		473928A91F7FC8540035B311 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		473928B51F7FC8820035B311 /* MapwizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapwizeViewController.swift; sourceTree = "<group>"; };
+		473928B91F7FC9D20035B311 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		473928BA1F7FC9D20035B311 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		47553D9F1F824A9500C98AD2 /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		476321571F83668400A7D3A8 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		476321581F83668400A7D3A8 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		476321591F8368B300A7D3A8 /* Mapwize-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mapwize-Bridging-Header.h"; sourceTree = "<group>"; };
+		4763263B1F844AB400A7D3A8 /* DirectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionView.swift; sourceTree = "<group>"; };
+		4763263D1F844AC300A7D3A8 /* DirectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DirectionView.xib; sourceTree = "<group>"; };
+		479F5E011F7FDFAF00C021A3 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		479F5E4F1F82173800C021A3 /* PlaceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceView.xib; sourceTree = "<group>"; };
+		47A0B0271F82546800A40C2A /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		47A0B0301F826D8400A40C2A /* MapwizeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapwizeTableViewController.swift; sourceTree = "<group>"; };
+		47A0B0331F828BC500A40C2A /* SearchBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarCell.swift; sourceTree = "<group>"; };
+		47A0B0351F828BD700A40C2A /* SearchBarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchBarCell.xib; sourceTree = "<group>"; };
+		47A119FC1F8455E100B35B34 /* ApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationExtension.swift; sourceTree = "<group>"; };
+		47A11A1F1F84E16B00B35B34 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		47A44CC01F84E6060062D187 /* RouteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RouteView.xib; sourceTree = "<group>"; };
+		47A44CC11F84E6060062D187 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		47D994401F7D35F800E14A6B /* Mapwize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapwize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABEA29C6B11AA8E20AA76DD /* Pods-Mapwize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mapwize.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mapwize/Pods-Mapwize.debug.xcconfig"; sourceTree = "<group>"; };
+		532961871BE2CA3D22506735 /* Pods-MapWize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapWize.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapWize/Pods-MapWize.debug.xcconfig"; sourceTree = "<group>"; };
+		59F399EC05A7FEB198B44636 /* Pods-MapWize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapWize.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapWize/Pods-MapWize.release.xcconfig"; sourceTree = "<group>"; };
+		8F0A2E911FBECEC1004B47A1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8F0A2E921FBED759004B47A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8F0A2E931FBED789004B47A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8F0A2E971FBEDA9E004B47A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F0A2E991FBEDAA4004B47A1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F0A2E9A1FBEDB9C004B47A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F15B4091FB4781C00E09239 /* PlaceWithSubtitleSearchBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceWithSubtitleSearchBarCell.swift; sourceTree = "<group>"; };
+		8F15B40B1FB4783500E09239 /* PlaceWithSubtitleSearchBarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceWithSubtitleSearchBarCell.xib; sourceTree = "<group>"; };
+		8F1E08371FB9A2A2006787EA /* SideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideViewController.swift; sourceTree = "<group>"; };
+		8F5E91041FC424A80098B161 /* QrCodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeScannerViewController.swift; sourceTree = "<group>"; };
+		8F5E91061FC433A40098B161 /* QrCodeTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeTargetView.swift; sourceTree = "<group>"; };
+		8F5E91101FC5B7040098B161 /* MapwizeLocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapwizeLocationProvider.swift; sourceTree = "<group>"; };
+		8F76A9571FD844D1003A4E3E /* credits.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = credits.html; sourceTree = "<group>"; };
+		8F7BE9792015EE0D0035D96F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8F7BE97A2015EE0D0035D96F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F7BE97B2015EE140035D96F /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8F7BE97C2015EE140035D96F /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F9A5216206937B800162D02 /* LocationProvidersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvidersManager.swift; sourceTree = "<group>"; };
+		8FA143B71FE958670017D303 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		8FA94DEA208F6E4100EE08EB /* ILPolestarIndoorLocationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILPolestarIndoorLocationProvider.h; sourceTree = "<group>"; };
+		8FA94DEB208F6E4100EE08EB /* ILPolestarIndoorLocationProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILPolestarIndoorLocationProvider.m; sourceTree = "<group>"; };
+		8FC633E22032E7A200E7D9A4 /* MapwizeForMapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapwizeForMapbox.framework; path = "../mapwize-for-mapbox-ios/release/1.0.4/MapwizeForMapbox.framework"; sourceTree = "<group>"; };
+		8FD757351FC8583E000EEC57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FE17EF41FBEDCF1001CE300 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE17EF61FBF1199001CE300 /* LocationBarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationBarCell.xib; sourceTree = "<group>"; };
+		8FE17EF81FBF11A6001CE300 /* LocationBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationBarCell.swift; sourceTree = "<group>"; };
+		8FF5CD141FB3114700B68A92 /* PlaceSearchBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchBarCell.swift; sourceTree = "<group>"; };
+		8FF5CD161FB3115400B68A92 /* PlaceSearchBarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceSearchBarCell.xib; sourceTree = "<group>"; };
+		994E8D80220014FC00613A19 /* BaseNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNode.swift; sourceTree = "<group>"; };
+		994E8D81220014FC00613A19 /* DestinationAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationAnnotation.swift; sourceTree = "<group>"; };
+		994E8D82220014FC00613A19 /* POIAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POIAnnotation.swift; sourceTree = "<group>"; };
+		994E8D83220014FC00613A19 /* LocationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		994E8D84220014FC00613A19 /* LocationTranslation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTranslation.swift; sourceTree = "<group>"; };
+		994E8D8B2200186200613A19 /* MatrixHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixHelper.swift; sourceTree = "<group>"; };
+		994E8D8E22001D9D00613A19 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		994E8D8F22001D9D00613A19 /* CLLocationCoordinate2D+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Extension.swift"; sourceTree = "<group>"; };
+		994E8D9022001D9D00613A19 /* CLLocation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		994E8D9122001D9D00613A19 /* StoryboardIdentifiableError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifiableError.swift; sourceTree = "<group>"; };
+		994E8D9222001D9D00613A19 /* SCNVector3+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extension.swift"; sourceTree = "<group>"; };
+		994E8D9322001D9D00613A19 /* Double+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		994E8D9522001D9D00613A19 /* MKRouteStep+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKRouteStep+Extension.swift"; sourceTree = "<group>"; };
+		994E8D9E2200267700613A19 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		994E8D9F2200267900613A19 /* LocationServiceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationServiceDelegate.swift; sourceTree = "<group>"; };
+		994E8DA32200270B00613A19 /* ARVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARVC.swift; path = Mapwize/Classes/ARVC.swift; sourceTree = SOURCE_ROOT; };
+		E743F98C570AF633DEB7636E /* Pods_MapWize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapWize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47D9943D1F7D35F800E14A6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD490F3DC0F6FCC82CC90BA /* Pods_Mapwize.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		473928A81F7FC8540035B311 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				994E8DA22200268800613A19 /* Services */,
+				8F5E91121FC5B70D0098B161 /* LocationProvider */,
+				47A0B0261F82545800A40C2A /* Extension */,
+				479F5E4A1F8216D700C021A3 /* View */,
+				473928B41F7FC8820035B311 /* ViewController */,
+				473928A91F7FC8540035B311 /* AppDelegate.swift */,
+				476321591F8368B300A7D3A8 /* Mapwize-Bridging-Header.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		473928AC1F7FC8540035B311 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FE17EF41FBEDCF1001CE300 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		473928AE1F7FC8540035B311 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				8FD757351FC8583E000EEC57 /* Assets.xcassets */,
+				479F5E001F7FDFAF00C021A3 /* Fonts */,
+				473928B81F7FC9D20035B311 /* Storyboards */,
+				8F0A2E901FBECE7A004B47A1 /* Localizable.strings */,
+				8F0A2E981FBEDA9E004B47A1 /* InfoPlist.strings */,
+				8F76A9571FD844D1003A4E3E /* credits.html */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		473928B41F7FC8820035B311 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				476321561F83668400A7D3A8 /* SWRevealViewController */,
+				476326391F8443EF00A7D3A8 /* SearchController */,
+				473928B51F7FC8820035B311 /* MapwizeViewController.swift */,
+				8F1E08371FB9A2A2006787EA /* SideViewController.swift */,
+				8F5E91041FC424A80098B161 /* QrCodeScannerViewController.swift */,
+				8FA143B71FE958670017D303 /* BottomSheetViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		473928B81F7FC9D20035B311 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				473928B91F7FC9D20035B311 /* LaunchScreen.storyboard */,
+				473928BA1F7FC9D20035B311 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		476321561F83668400A7D3A8 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				476321571F83668400A7D3A8 /* SWRevealViewController.h */,
+				476321581F83668400A7D3A8 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		476326391F8443EF00A7D3A8 /* SearchController */ = {
+			isa = PBXGroup;
+			children = (
+				47A0B0301F826D8400A40C2A /* MapwizeTableViewController.swift */,
+			);
+			path = SearchController;
+			sourceTree = "<group>";
+		};
+		4763263A1F844AA300A7D3A8 /* Direction */ = {
+			isa = PBXGroup;
+			children = (
+				4763263B1F844AB400A7D3A8 /* DirectionView.swift */,
+				4763263D1F844AC300A7D3A8 /* DirectionView.xib */,
+			);
+			path = Direction;
+			sourceTree = "<group>";
+		};
+		479F5E001F7FDFAF00C021A3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				47A11A1F1F84E16B00B35B34 /* FontAwesome.ttf */,
+				479F5E011F7FDFAF00C021A3 /* ionicons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		479F5E4A1F8216D700C021A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				47A44CBF1F84E5DC0062D187 /* Route */,
+				4763263A1F844AA300A7D3A8 /* Direction */,
+				47A0B0321F828BAD00A40C2A /* SearchBar */,
+				479F5E4D1F82170A00C021A3 /* Place */,
+				8F5E91061FC433A40098B161 /* QrCodeTargetView.swift */,
+				994E8DA32200270B00613A19 /* ARVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		479F5E4D1F82170A00C021A3 /* Place */ = {
+			isa = PBXGroup;
+			children = (
+				479F5E4F1F82173800C021A3 /* PlaceView.xib */,
+				47553D9F1F824A9500C98AD2 /* PlaceView.swift */,
+			);
+			path = Place;
+			sourceTree = "<group>";
+		};
+		47A0B0261F82545800A40C2A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				994E8D8A2200186200613A19 /* Helpers */,
+				994E8D7F220014FC00613A19 /* Models */,
+				47A0B0271F82546800A40C2A /* ColorExtension.swift */,
+				47A119FC1F8455E100B35B34 /* ApplicationExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		47A0B0321F828BAD00A40C2A /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				47A0B0331F828BC500A40C2A /* SearchBarCell.swift */,
+				47A0B0351F828BD700A40C2A /* SearchBarCell.xib */,
+				8FF5CD141FB3114700B68A92 /* PlaceSearchBarCell.swift */,
+				8FF5CD161FB3115400B68A92 /* PlaceSearchBarCell.xib */,
+				8F15B4091FB4781C00E09239 /* PlaceWithSubtitleSearchBarCell.swift */,
+				8F15B40B1FB4783500E09239 /* PlaceWithSubtitleSearchBarCell.xib */,
+				8FE17EF61FBF1199001CE300 /* LocationBarCell.xib */,
+				8FE17EF81FBF11A6001CE300 /* LocationBarCell.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		47A44CBF1F84E5DC0062D187 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				47A44CC11F84E6060062D187 /* RouteView.swift */,
+				47A44CC01F84E6060062D187 /* RouteView.xib */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		47AA6FAEDCE114E918314D9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				532961871BE2CA3D22506735 /* Pods-MapWize.debug.xcconfig */,
+				59F399EC05A7FEB198B44636 /* Pods-MapWize.release.xcconfig */,
+				4ABEA29C6B11AA8E20AA76DD /* Pods-Mapwize.debug.xcconfig */,
+				0BB4FA560678D71764EE7B19 /* Pods-Mapwize.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47D994371F7D35F800E14A6B = {
+			isa = PBXGroup;
+			children = (
+				47D994421F7D35F800E14A6B /* Mapwize */,
+				47D994411F7D35F800E14A6B /* Products */,
+				47AA6FAEDCE114E918314D9B /* Pods */,
+				B64A42DBA27446257931254E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47D994411F7D35F800E14A6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47D994401F7D35F800E14A6B /* Mapwize.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47D994421F7D35F800E14A6B /* Mapwize */ = {
+			isa = PBXGroup;
+			children = (
+				473928A81F7FC8540035B311 /* Classes */,
+				473928AE1F7FC8540035B311 /* Ressources */,
+				473928AC1F7FC8540035B311 /* Supporting Files */,
+			);
+			path = Mapwize;
+			sourceTree = "<group>";
+		};
+		8F5E91121FC5B70D0098B161 /* LocationProvider */ = {
+			isa = PBXGroup;
+			children = (
+				8F5E91101FC5B7040098B161 /* MapwizeLocationProvider.swift */,
+				8F9A5216206937B800162D02 /* LocationProvidersManager.swift */,
+				8FA94DEA208F6E4100EE08EB /* ILPolestarIndoorLocationProvider.h */,
+				8FA94DEB208F6E4100EE08EB /* ILPolestarIndoorLocationProvider.m */,
+			);
+			path = LocationProvider;
+			sourceTree = "<group>";
+		};
+		994E8D7F220014FC00613A19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				994E8D80220014FC00613A19 /* BaseNode.swift */,
+				994E8D81220014FC00613A19 /* DestinationAnnotation.swift */,
+				994E8D82220014FC00613A19 /* POIAnnotation.swift */,
+				994E8D83220014FC00613A19 /* LocationData.swift */,
+				994E8D84220014FC00613A19 /* LocationTranslation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		994E8D8A2200186200613A19 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				994E8D8D22001D9D00613A19 /* Extensions */,
+				994E8D8B2200186200613A19 /* MatrixHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		994E8D8D22001D9D00613A19 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				994E8D8E22001D9D00613A19 /* Constants.swift */,
+				994E8D8F22001D9D00613A19 /* CLLocationCoordinate2D+Extension.swift */,
+				994E8D9022001D9D00613A19 /* CLLocation+Extension.swift */,
+				994E8D9122001D9D00613A19 /* StoryboardIdentifiableError.swift */,
+				994E8D9222001D9D00613A19 /* SCNVector3+Extension.swift */,
+				994E8D9322001D9D00613A19 /* Double+Extension.swift */,
+				994E8D9522001D9D00613A19 /* MKRouteStep+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		994E8DA22200268800613A19 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				994E8D9E2200267700613A19 /* LocationService.swift */,
+				994E8D9F2200267900613A19 /* LocationServiceDelegate.swift */,
+			);
+			name = Services;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B64A42DBA27446257931254E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FC633E22032E7A200E7D9A4 /* MapwizeForMapbox.framework */,
+				E743F98C570AF633DEB7636E /* Pods_MapWize.framework */,
+				1615CC6DDBCA1FE282233B16 /* Pods_Mapwize.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47D9943F1F7D35F800E14A6B /* Mapwize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D994541F7D35F800E14A6B /* Build configuration list for PBXNativeTarget "Mapwize" */;
+			buildPhases = (
+				C9D6D07ADA525B8FFBC3016D /* [CP] Check Pods Manifest.lock */,
+				47D9943C1F7D35F800E14A6B /* Sources */,
+				47D9943D1F7D35F800E14A6B /* Frameworks */,
+				47D9943E1F7D35F800E14A6B /* Resources */,
+				E9B39663319DAE81604DFDEE /* [CP] Embed Pods Frameworks */,
+				8F1E093F1FBAF357006787EA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mapwize;
+			productName = demo;
+			productReference = 47D994401F7D35F800E14A6B /* Mapwize.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47D994381F7D35F800E14A6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = MapWize;
+				TargetAttributes = {
+					47D9943F1F7D35F800E14A6B = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 47D9943B1F7D35F800E14A6B /* Build configuration list for PBXProject "Mapwize" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				de,
+				nl,
+			);
+			mainGroup = 47D994371F7D35F800E14A6B;
+			productRefGroup = 47D994411F7D35F800E14A6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47D9943F1F7D35F800E14A6B /* Mapwize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47D9943E1F7D35F800E14A6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE17EF51FBEDCF1001CE300 /* Info.plist in Resources */,
+				47A11A201F84E1AE00B35B34 /* FontAwesome.ttf in Resources */,
+				47A11A211F84E1AE00B35B34 /* ionicons.ttf in Resources */,
+				8F0A2E8E1FBECE7A004B47A1 /* Localizable.strings in Resources */,
+				8FE17EF71FBF1199001CE300 /* LocationBarCell.xib in Resources */,
+				8F0A2E961FBEDA9E004B47A1 /* InfoPlist.strings in Resources */,
+				473928BD1F7FCA150035B311 /* LaunchScreen.storyboard in Resources */,
+				47A0B0361F828BD700A40C2A /* SearchBarCell.xib in Resources */,
+				8FD757361FC8583E000EEC57 /* Assets.xcassets in Resources */,
+				47A44CC21F8501AE0062D187 /* RouteView.xib in Resources */,
+				473928BE1F7FCA150035B311 /* Main.storyboard in Resources */,
+				8FF5CD171FB3115400B68A92 /* PlaceSearchBarCell.xib in Resources */,
+				47553D9E1F824A5100C98AD2 /* PlaceView.xib in Resources */,
+				8F76A9581FD844D1003A4E3E /* credits.html in Resources */,
+				4763263E1F844AC300A7D3A8 /* DirectionView.xib in Resources */,
+				8F15B40C1FB4783500E09239 /* PlaceWithSubtitleSearchBarCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F1E093F1FBAF357006787EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework/strip-frameworks.sh\"";
+		};
+		C9D6D07ADA525B8FFBC3016D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mapwize-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B39663319DAE81604DFDEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mapwize/Pods-Mapwize-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/GPSIndoorLocationProvider/GPSIndoorLocationProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/IndoorLocation/IndoorLocation.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MTBBarcodeScanner/MTBBarcodeScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/ManualIndoorLocationProvider/ManualIndoorLocationProvider.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${PODS_ROOT}/MapwizeForMapbox/MapwizeForMapbox.framework",
+				"${BUILT_PRODUCTS_DIR}/SelectorIndoorLocationProvider/SelectorIndoorLocationProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketIndoorLocationProviderObjc/SocketIndoorLocationProviderObjc.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/ionicons/ionicons.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPSIndoorLocationProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IndoorLocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTBBarcodeScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ManualIndoorLocationProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapwizeForMapbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SelectorIndoorLocationProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIndoorLocationProviderObjc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ionicons.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mapwize/Pods-Mapwize-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47D9943C1F7D35F800E14A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994E8D9A22001D9D00613A19 /* SCNVector3+Extension.swift in Sources */,
+				4763215C1F83699700A7D3A8 /* SWRevealViewController.h in Sources */,
+				8F5E91111FC5B7040098B161 /* MapwizeLocationProvider.swift in Sources */,
+				4763263C1F844AB400A7D3A8 /* DirectionView.swift in Sources */,
+				994E8D9B22001D9D00613A19 /* Double+Extension.swift in Sources */,
+				8F5E91071FC433A40098B161 /* QrCodeTargetView.swift in Sources */,
+				994E8D9622001D9D00613A19 /* Constants.swift in Sources */,
+				4763215D1F83699700A7D3A8 /* SWRevealViewController.m in Sources */,
+				994E8D9D22001D9D00613A19 /* MKRouteStep+Extension.swift in Sources */,
+				994E8D8C2200186200613A19 /* MatrixHelper.swift in Sources */,
+				47A0B0341F828BC500A40C2A /* SearchBarCell.swift in Sources */,
+				47553DA01F824A9500C98AD2 /* PlaceView.swift in Sources */,
+				8FF5CD151FB3114700B68A92 /* PlaceSearchBarCell.swift in Sources */,
+				47A44CC31F8501B50062D187 /* RouteView.swift in Sources */,
+				47A0B0311F826D8400A40C2A /* MapwizeTableViewController.swift in Sources */,
+				994E8D9922001D9D00613A19 /* StoryboardIdentifiableError.swift in Sources */,
+				994E8D86220014FD00613A19 /* DestinationAnnotation.swift in Sources */,
+				8FA94DEC208F6E4100EE08EB /* ILPolestarIndoorLocationProvider.m in Sources */,
+				8FE17EF91FBF11A6001CE300 /* LocationBarCell.swift in Sources */,
+				8F9A5217206937B800162D02 /* LocationProvidersManager.swift in Sources */,
+				994E8D9722001D9D00613A19 /* CLLocationCoordinate2D+Extension.swift in Sources */,
+				8F5E91051FC424A80098B161 /* QrCodeScannerViewController.swift in Sources */,
+				47A119FD1F8455E100B35B34 /* ApplicationExtension.swift in Sources */,
+				994E8D89220014FD00613A19 /* LocationTranslation.swift in Sources */,
+				8FA143B81FE958670017D303 /* BottomSheetViewController.swift in Sources */,
+				994E8D87220014FD00613A19 /* POIAnnotation.swift in Sources */,
+				479F5DFC1F7FD02F00C021A3 /* MapwizeViewController.swift in Sources */,
+				479F5DFD1F7FD02F00C021A3 /* AppDelegate.swift in Sources */,
+				994E8DA12200267900613A19 /* LocationServiceDelegate.swift in Sources */,
+				994E8D9822001D9D00613A19 /* CLLocation+Extension.swift in Sources */,
+				994E8D85220014FD00613A19 /* BaseNode.swift in Sources */,
+				994E8D88220014FD00613A19 /* LocationData.swift in Sources */,
+				994E8DA42200270B00613A19 /* ARVC.swift in Sources */,
+				8F15B40A1FB4781C00E09239 /* PlaceWithSubtitleSearchBarCell.swift in Sources */,
+				47A0B0281F82546800A40C2A /* ColorExtension.swift in Sources */,
+				994E8DA02200267900613A19 /* LocationService.swift in Sources */,
+				8F1E08381FB9A2A2006787EA /* SideViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F0A2E901FBECE7A004B47A1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0A2E911FBECEC1004B47A1 /* fr */,
+				8F0A2E921FBED759004B47A1 /* Base */,
+				8F0A2E931FBED789004B47A1 /* en */,
+				8F7BE9792015EE0D0035D96F /* de */,
+				8F7BE97B2015EE140035D96F /* nl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8F0A2E981FBEDA9E004B47A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F0A2E971FBEDA9E004B47A1 /* en */,
+				8F0A2E991FBEDAA4004B47A1 /* fr */,
+				8F0A2E9A1FBEDB9C004B47A1 /* Base */,
+				8F7BE97A2015EE0D0035D96F /* de */,
+				8F7BE97C2015EE140035D96F /* nl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47D994521F7D35F800E14A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47D994531F7D35F800E14A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47D994551F7D35F800E14A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABEA29C6B11AA8E20AA76DD /* Pods-Mapwize.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZF262N99SL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Mapwize/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = semiangle.campuslife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mapwize/Classes/Mapwize-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47D994561F7D35F800E14A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB4FA560678D71764EE7B19 /* Pods-Mapwize.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZF262N99SL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Mapwize/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = semiangle.campuslife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mapwize/Classes/Mapwize-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47D9943B1F7D35F800E14A6B /* Build configuration list for PBXProject "Mapwize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D994521F7D35F800E14A6B /* Debug */,
+				47D994531F7D35F800E14A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D994541F7D35F800E14A6B /* Build configuration list for PBXNativeTarget "Mapwize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D994551F7D35F800E14A6B /* Debug */,
+				47D994561F7D35F800E14A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47D994381F7D35F800E14A6B /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module SelectorIndoorLocationProvider {
+  umbrella header "SelectorIndoorLocationProvider-umbrella.h"
+
+  export *
+  module * { export * }
+}

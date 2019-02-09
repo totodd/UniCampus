@@ -1,0 +1,4 @@
+"NSLocationWhenInUseUsageDescription" = "Mapwize heeft uw toestemming nodig om uw positie op de kaart weer te geven.";
+"NSCameraUsageDescription" = "Mapwize heeft toegang to uw camera nodig om de QR-codes te kunnen scannen.";
+"NSLocationAlwaysUsageDescription" = "Mapwize needs your authorization to display your location on the map.";
+"NSBluetoothPeripheralUsageDescription" = "Mapwize needs access to bluetooth to improve indoor location.";

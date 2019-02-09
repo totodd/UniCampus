@@ -1,0 +1,27 @@
+"Search in venue" = "Suchen in %@ ...";
+"Search a venue" = "Einen Ort suchen ...";
+"Choose a starting point" = "Ausgangspunkt auswählen";
+"Choose a destination" = "Zielort auswählen";
+"Languages" = "Sprache";
+"Choose a language" = "Wählen Sie eine Sprache";
+"Universes" = "Universum";
+"Choose a universe" = "Wählen Sie ein Universum";
+"Enter an acccess key" = "Zugangsschlüssel eingeben";
+"Access key" = "Zugangsschlüssel";
+"Access keys allow you to view private buildings and are provided by building managers" = "Zugangsschlüssels ermöglichen den Zugang zu privaten Gebäuden und werden von den Hausverwaltungen zur Verfügung gestellt.";
+"Current location" = "Aktuelle Position";
+"Floor %@" = "Stock %@";
+"Network" = "Verbindung";
+"No network available, please turn ON internet and relaunch Mapwize" = "Keine Internet-Verbindung verfügbar. Bitte stellen Sie die Internetverbindung wieder her und starten Sie Mapwize neu.";
+"Cancel" = "Annulieren";
+"Coordinates" = "Koordinaten";
+"QrCodeError" = "Ungültig QR-code";
+"QrCodeErrorText" = "Dieser QR-code ist nicht von Mapwize unterstützt";
+"Close" = "Schließen";
+"No result" = "Keine Resultate";
+"Contact us" = "Kontaktieren Sie uns";
+"About Mapwize" = "About Mapwize";
+"Invalid access key" = "Ungültiger Zugriff";
+"New access has been granted" = "Zugriff gewährt";
+"Entering in venue" = "Eingang in %@...";
+

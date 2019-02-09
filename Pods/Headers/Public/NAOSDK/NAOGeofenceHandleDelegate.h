@@ -1,0 +1,1 @@
+../../../NAOSDK/Pod/Classes/NAOGeofenceHandleDelegate.h

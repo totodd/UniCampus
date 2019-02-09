@@ -1,0 +1,27 @@
+"Search in venue" = "Zoeken in %@ ...";
+"Search a venue" = "Naar een plek zoeken...";
+"Choose a starting point" = "Kies een uitgangspunt";
+"Choose a destination" = "Kies een bestemming";
+"Languages" = "Talen";
+"Choose a language" = "Kies een taal";
+"Universes" = "Universum";
+"Choose a universe" = "Kies een universum";
+"Enter an acccess key" = "Toegangsleutel invoegen";
+"Access key" = "Toegangssleutel";
+"Access keys allow you to view private buildings and are provided by building managers" = "Met toegangsseuls kunt u privégebouwen bekijken en deze worden door gebouwbeheerders geleverd";
+"Current location" = "Huidige standpunt";
+"Floor %@" = "Verdieping %@";
+"Network" = "Netwerkverbinding";
+"No network available, please turn ON internet and relaunch Mapwize" = "Geen netwerk beschikbaar. Controleer uw Internetverbinding voor het herstarten van Mapwize";
+"Cancel" = "Annuleren";
+"Coordinates" = "Coördinaten";
+"QrCodeError" = "QR-code ongeldig";
+"QrCodeErrorText" = "De QR-code wordt door Mapwize niet herkent";
+"Close" = "Afsluiten";
+"No result" = "Geen résultaat";
+"Contact us" = "Contact met ons opnemen";
+"About Mapwize" = "About Mapwize";
+"Invalid access key" = "Ongeldige toegangssleutel";
+"New access has been granted" = "Nieuwe toegangssleutel toegevoegd";
+"Entering in venue" = "Toegan tot %@...";
+

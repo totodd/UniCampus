@@ -1,0 +1,6 @@
+framework module SocketIndoorLocationProviderObjc {
+  umbrella header "SocketIndoorLocationProviderObjc-umbrella.h"
+
+  export *
+  module * { export * }
+}

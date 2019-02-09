@@ -1,0 +1,6 @@
+framework module Pods_Mapwize {
+  umbrella header "Pods-Mapwize-umbrella.h"
+
+  export *
+  module * { export * }
+}
